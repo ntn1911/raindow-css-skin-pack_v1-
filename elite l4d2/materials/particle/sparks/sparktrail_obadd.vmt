@@ -1,0 +1,12 @@
+"SpriteCard"
+{
+	"$basetexture" 	"particle/sparks/sparktrail"
+
+	"$additive" 	"1"
+	"$vertexcolor" 	"1"
+	"$vertexalpha" 	"1"
+
+	"$overbrightfactor" "3"	
+	$splinetype 2
+}
+

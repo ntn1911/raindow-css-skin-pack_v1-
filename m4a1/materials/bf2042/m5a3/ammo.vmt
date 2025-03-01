@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "bf2042\m5a3\ammo"
+"$bumpmap" "bf2042\m5a3\ammo_n"
+"$selfillum"	"1"
+"$color2" "[0.5 0.5 0.5]"
+	"$phong" "1"
+	"$phongboost" "15"
+	"$phongexponent" "15"
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phongexponenttexture" "bf2042\m5a3\exponent"
+}

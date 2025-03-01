@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\mw3\weapons\tar21\reticle_ui_stencil"
+$selfillum	1
+
+"$translucent" "1"
+}

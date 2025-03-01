@@ -1,0 +1,6 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "bf2042\g36\attachment_vm_laser01_glass_rgb"
+}

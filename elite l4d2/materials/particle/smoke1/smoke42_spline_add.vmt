@@ -1,0 +1,21 @@
+SpriteCard
+{
+
+$basetexture "particle/smoke1/smoke42"
+
+$DEPTHBLEND 0
+$blendframes 0
+
+$vertexalpha 1
+$vertexcolor 1
+
+$startfadesize 0.5
+$endfadesize 0.6
+$maxsize 0.7
+
+$splinetype 2
+
+$additive	1
+$overbrightfactor 3
+}
+

@@ -1,0 +1,17 @@
+SpriteCard
+{
+$basetexture "particle/particle_ring_wave_2"
+
+$translucent 1
+$additive 1
+$vertexalpha 1
+$vertexcolor 1
+
+$overbrightfactor 9
+
+	$startfadeout 0.8
+	$endfadeout 1
+
+"GPU<2?$startfadeout" 0.48
+"GPU<2?$endfadeout" 0.64
+}

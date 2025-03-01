@@ -1,0 +1,8 @@
+SpriteCard
+{
+$basetexture "particle/blood_splat00"
+$mod2x 1
+$nocull 1
+$orientation 3
+$DEPTHBLEND 0
+}

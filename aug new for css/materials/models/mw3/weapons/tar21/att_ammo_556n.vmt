@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\mw3\weapons\tar21\att_ammo_556n"
+"$bumpmap" "models\mw3\weapons\tar21\att_ammo_556n_n"
+"$color2" "[0.6 0.6 0.6]"
+	"$phong" "1"
+	"$phongboost" "15"
+	"$phongexponent" "15"
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phongexponenttexture" "models\mw3\weapons\tar21\exponent"
+
+
+
+
+
+}

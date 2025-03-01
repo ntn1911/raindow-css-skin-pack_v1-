@@ -1,0 +1,26 @@
+SpriteCard
+{
+$basetexture "particle/spray1/spray1"
+
+
+$vertexcolor 1
+$vertexalpha 1
+$overbrightfactor 0.15
+
+$blendframes 1
+
+$depthblend 1
+
+
+
+$startfadesize 0.6
+$endfadesize 0.8
+
+
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$DEPTHBLEND" 0
+
+"GPU<2?$startfadeout" 0.28
+"GPU<2?$endfadeout" 0.4
+
+}

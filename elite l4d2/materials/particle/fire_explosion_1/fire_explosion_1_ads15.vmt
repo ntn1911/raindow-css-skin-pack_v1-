@@ -1,0 +1,19 @@
+SpriteCard
+{
+$basetexture "particle\fire_explosion_1\fire_explosion_1"
+
+$ADDitive 1
+$vertexalpha 1
+$vertexcolor 1
+
+$addself 15
+
+$DEPTHBLEND 0
+
+$startfadesize .75
+$endfadesize 0.8
+
+$MAXSIZE 0.9
+$BLENDFRAMES 0
+
+}

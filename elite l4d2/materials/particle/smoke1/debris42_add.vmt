@@ -1,0 +1,15 @@
+SpriteCard
+{
+
+$basetexture "particle/smoke1/debris42"
+
+$DEPTHBLEND 0
+$additive 1
+$vertexalpha 1
+$vertexcolor 1
+
+$startfadesize 0.36
+$endfadesize 0.47
+$maxsize 0.5
+}
+

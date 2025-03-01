@@ -1,0 +1,20 @@
+SpriteCard
+
+{
+$basetexture "particle/blood_splatter/bloodsplatter"
+$transparent 1
+$depthblend 0
+$blendframes 0
+$vertexalpha 1
+$vertexcolor 1
+        $distancealpha 1
+
+        $softedges 0
+
+        
+        $outline 0
+
+        $perparticleoutline 0
+
+        $overbrightfactor 2
+}

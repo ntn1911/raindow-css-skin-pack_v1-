@@ -1,0 +1,13 @@
+SpriteCard
+{
+$basetexture "particle\lens_flare\bokeh"
+
+$additive 1
+
+$vertexalpha 1
+$vertexcolor 1
+
+$depthblend 1
+
+$ignorez 1
+}

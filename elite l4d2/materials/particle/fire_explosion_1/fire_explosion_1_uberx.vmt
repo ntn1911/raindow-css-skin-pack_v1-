@@ -1,0 +1,21 @@
+SpriteCard
+{
+$basetexture "particle\fire_explosion_1\fire_explosion_1"
+
+$ADDitive 1
+$vertexalpha 1
+$vertexcolor 1
+$OVERBRIGHTFACTOR 5
+
+$ADDSELF 5
+$DEPTHBLEND 1
+$startfadesize 0.5
+$endfadesize 0.6
+$MAXSIZE 0.9
+$BLENDFRAMES 1
+$vertexfogamount .75
+"GPU<2?$DEPTHBLEND" 0
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$startfadeout" 0.35
+"GPU<2?$endfadeout" 0.45
+}

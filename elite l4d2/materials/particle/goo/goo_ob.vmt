@@ -1,0 +1,24 @@
+SpriteCard
+{
+$basetexture "particle/goo/goo"
+
+$vertexalpha 	1
+$vertexcolor 	1
+
+$blendframes 	1
+$depthblend 	0
+
+$overbrightfactor 5
+
+
+$startfadesize 0.6
+$endfadesize 0.85
+
+
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$DEPTHBLEND" 0
+
+"GPU<2?$startfadeout" 0.275
+"GPU<2?$endfadeout" 0.425
+
+}

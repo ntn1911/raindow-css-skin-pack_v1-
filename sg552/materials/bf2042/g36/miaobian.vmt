@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+    "$basetexture"		"bf2042\g36\b1"
+	"$additive"			"1"
+	"$selfillum"		"1"
+
+	Proxies
+	{
+		"TextureScroll"
+			{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.5"
+			"texturescrollangle" "0"
+			}
+		"Sine"
+			{
+				"resultVar"	"$alpha"
+				"sineperiod"	7
+				"sinemin"	0.6
+				"sinemax"	0.9
+				"timeoffset"	2220
+			}
+	}
+}

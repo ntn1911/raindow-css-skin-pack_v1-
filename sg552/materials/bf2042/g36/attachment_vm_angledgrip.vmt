@@ -1,0 +1,40 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "bf2042\g36\attachment_vm_angledgrip_rgb"
+    "$bumpmap" "bf2042\g36\attachment_vm_angledgrip_n"
+ "$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "4"
+
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "0"
+
+
+	
+	$envmapfresnel 1
+    "$rimlight" "1"//轮廓光，在phong开启�-�才可以使用
+    "$rimlightexponent" "255"
+    "$rimlightboost" "255"
+    $lightwarptexture     "bf2042\g36\DDM4V5_LW"
+    $diffuseexp     "1"
+	
+
+ $envmap                     "env_cubemap"
+    $basemapalphaenvmapmask     "1"
+    
+    "$diffuseexp" "0.8"
+
+        "$nocull" 1
+
+	"$selfillum" "1" // 启用自发光效果
+    "$selfillumtint" "[.8 .8 .8]" // 自发光颜色和亮度，RGB� �式
+    "$selfillumfresnel" "1" // 启用 Fresnel 效果
+    "$selfillumfresnelminmaxexp" "[.5 .5 1]" //控制 Fresnel 效果的最小值、最大值
+
+
+	"$phongexponenttexture" "bf2042\g36\exponent"
+
+}

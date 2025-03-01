@@ -1,0 +1,21 @@
+SpriteCard
+{
+
+$basetexture "particle/big_exp"
+
+$overbrightfactor 4
+$DEPTHBLEND 0
+
+$vertexalpha 1
+$vertexcolor 1
+
+$blendframes 1
+$startfadesize 0.75
+$endfadesize 0.9
+
+"GPU<2?$STARTFADESIZE" ".4"
+"GPU<2?$ENDFADESIZE" ".6"
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$DEPTHBLEND" 0
+}
+

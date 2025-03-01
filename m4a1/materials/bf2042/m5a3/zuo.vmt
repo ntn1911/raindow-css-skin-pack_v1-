@@ -1,0 +1,24 @@
+"vertexlitgeneric" 
+{
+    "$basetexture" "bf2042\m5a3\zuo"
+
+	"$selfillum" "1"
+	"$additive"	"1"
+	"$nocull" "1"
+
+	"$detail" "bf2042\m5a3\b"
+	
+	"$detailscale" "1"      
+	"$detailblendfactor" "1" 
+	"$detailblendmode" "8"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.5"
+			"texturescrollangle" "180"
+		}
+	}
+}

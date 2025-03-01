@@ -1,0 +1,12 @@
+Cable
+{
+$basetexture "particle/beam_blood_02"
+$bumpmap "cable/cablenormalmap"
+
+$translucent 1
+$vertexcolor 1
+$nocull 1
+$spriteorientation parallel_upright
+$minlight 0
+$maxlight 0.1
+}

@@ -1,0 +1,14 @@
+"SpriteCard"
+{
+	$BASETEXTURE "particle/Fire_Particle_7/Fire_Particle_7"
+	$OVERBRIGHTFACTOR 1.5
+
+	$ADDSELF 0.5
+
+
+	$startfadesize 0.4
+	$endfadesize 0.5
+
+"GPU<2?$STARTFADESIZE" ".3"
+"GPU<2?$ENDFADESIZE" ".45"
+}

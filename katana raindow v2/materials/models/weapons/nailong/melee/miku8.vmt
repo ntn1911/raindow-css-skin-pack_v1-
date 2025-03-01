@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\Weapons\Nailong\melee\Miku"
+	$bumpmap "models\Weapons\Nailong\melee\normal"
+	"$lightwarptexture" "models\Weapons\Nailong\melee\basewarp"
+	"$phongexponenttexture" "models\Weapons\Nailong\melee\phong_exp"
+
+	"$halflambert"		1
+	"$nocull"		0
+	"$phong" "1"
+	"$phongboost"	".1"
+	"$phongexponent" "30"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1.0 1.0 1.0]"
+	"$selfillum"   "1"
+"$selfillummask"  "models\Weapons\Nailong\melee\95%"
+
+}

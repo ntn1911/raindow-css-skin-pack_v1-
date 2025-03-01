@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+    "$basetexture" "rpa60\ttf2_predator\lg"
+	 $nodecal 1
+
+	"$selfillum" 1
+	
+	
+    Proxies
+     
+    {
+	   
+        TextureScroll
+        {
+            texturescrollvar $baseTextureTransform
+            texturescrollrate "0.2"
+            texturescrollangle 200.00
+		}
+	}
+}

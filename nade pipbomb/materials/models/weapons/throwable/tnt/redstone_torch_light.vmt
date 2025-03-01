@@ -1,0 +1,16 @@
+"vertexlitgeneric" {
+    "$basetexture" "models\weapons\throwable\TNT\redstone_torch_light"
+	   $detail "models\weapons\throwable\TNT\redstone_torch_light"
+       $detailscale 1        //scales the detail texture to same size as diffuse.
+       $detailblendfactor 1  //lower values make the texture less visible. 0.0 - 1.0
+       $detailblendmode 5 
+//	$nocull		"1"
+//	$translucent	"1"
+	"$nodecal" 1
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+	$allowalphatocoverage 1
+	$alphatest 1
+	$alphatestreference 0.1919810
+}

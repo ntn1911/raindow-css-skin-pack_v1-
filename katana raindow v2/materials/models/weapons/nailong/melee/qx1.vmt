@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+   "$basetexture" "models\Weapons\Nailong\melee\qx1"
+   "$nocull" "1"
+   "$additive" "1"
+   "$selfillum"  "1"
+   "$selfillumtint" "0.9 0.9 0.9"
+
+$selfillummask			"models\Weapons\Nailong\melee\black"
+}

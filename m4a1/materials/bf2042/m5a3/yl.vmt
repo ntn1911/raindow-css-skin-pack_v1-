@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+    "$basetexture" "bf2042\m5a3\yl"
+
+ "$nocull"		"1"
+ "$additive" "1"
+ "$selfillum"   "1"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+{
+ "animatedTextureVar" "$basetexture"
+ "animatedTextureFrameNumVar" "$frame"
+ "animatedTextureFrameRate" 30.00
+ }
+}
+}

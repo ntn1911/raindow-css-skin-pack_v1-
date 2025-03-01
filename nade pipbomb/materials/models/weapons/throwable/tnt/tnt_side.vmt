@@ -1,0 +1,16 @@
+"vertexlitgeneric" {
+    "$basetexture" "models\weapons\throwable\TNT\tnt_side"
+	$nocull		"1"
+//	$translucent	"1"
+    "$surfaceprop" "Mglass"
+//	$Selfillum    "1"
+	"$nodecal" 1
+//	"$rimlight"               "1"
+//	"$rimlightexponent"       "3"
+//	"$rimlightboost"          "4"
+//	"$halflambert" "1"
+//	$allowalphatocoverage 1
+//	$alphatest 1
+//	$alphatestreference 0.1919810
+
+}

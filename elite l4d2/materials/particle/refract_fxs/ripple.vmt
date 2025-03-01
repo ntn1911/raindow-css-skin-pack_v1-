@@ -1,0 +1,14 @@
+"Refract"
+{
+ 	"$normalmap" "particle/refract_fxs/ripple.vmt"
+	"$orientation" "2"
+ 	"$refractamount" "0.15"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$translucent" "1"
+	"$forcerefract" 1
+ 	"$bluramount" "0.5"
+	"$nofog" "1"
+	"$vertexcolormodulate" "1"
+	$nocull	1
+}

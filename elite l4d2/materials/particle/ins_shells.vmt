@@ -1,0 +1,6 @@
+SpriteCard
+{
+$basetexture "particle/ins_shells"
+$depthblend 0
+$blendframes 0
+}

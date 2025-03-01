@@ -1,0 +1,22 @@
+SpriteCard
+{
+$basetexture "particle/smoke1/debris42"
+
+$vertexcolor 1
+$vertexalpha 1
+
+$translucent 1
+
+$splinetype 2
+
+$startfadeout 0.45
+$endfadeout 0.65
+
+$depthblend 1
+
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$DEPTHBLEND" 0
+
+"GPU<2?$startfadeout" 0.3
+"GPU<2?$endfadeout" 0.5
+}

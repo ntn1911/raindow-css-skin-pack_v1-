@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+    "$basetexture" "bf2042\m5a3\lt"
+
+ "$nocull"		"1"
+ "$additive" "1"
+ "$selfillum"   "1"
+
+
+}

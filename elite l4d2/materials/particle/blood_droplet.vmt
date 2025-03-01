@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "particle/blood_droplet"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

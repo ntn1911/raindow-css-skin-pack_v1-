@@ -1,0 +1,41 @@
+VertexlitGeneric
+{
+	"$basetexture" "models\Weapons\Nailong\melee\shouhuan"		
+	
+	"$lightwarptexture" "models\Weapons\Nailong\melee\warp"	
+	
+    "$nocull" 1        
+	"$nodecal" 1       
+	
+	"$phong" "0"
+	"$phongalbedotint" "1"                
+	"$halflambert" "1"
+	"$phongboost"	"0"                 
+	"$PhongExponent" "1.0"                
+	"$phongfresnelranges"	"[1 .1 .1]"
+	
+	$additive 1
+		
+	"$selfillum" "1"
+	
+	$randNumberA 0
+	$noiseres 0
+	
+	"Proxies"
+	
+	{
+		TextureScroll
+		{
+			texturescrollvar $baseTextureTransform
+			texturescrollrate 0.1
+			texturescrollangle 0.00
+		}
+		"Sine"
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	1
+			"sinemin"	0.75
+			"sinemax"	1			
+		}
+	}
+}

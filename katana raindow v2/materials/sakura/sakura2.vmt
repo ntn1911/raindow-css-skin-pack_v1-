@@ -1,0 +1,6 @@
+SpriteCard
+{
+	"$basetexture" "sakura/sakura2"    
+	$additive 		1
+
+}

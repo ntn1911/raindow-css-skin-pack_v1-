@@ -1,0 +1,34 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Kikyo/HUD_2"
+    "$lightwarptexture" "Kikyo/shader"
+	"$bumpmap" "Kikyo/Normal"
+
+	"$envmapfresnel"	"0.5"
+	"$envmap"			"env_cubemap"
+	"$envmaptint"		"[0.6 0.2 0.6]"
+	"$normalmapalphaenvmapmask"	"1"
+	
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+
+    "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	"0.02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "10"
+	"$halflambert" "1"
+	"$selfillum" "1"
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar $basetexture
+			animatedTextureFrameNumVar $frame
+			animatedTextureFrameRate 24
+		}
+	}
+}

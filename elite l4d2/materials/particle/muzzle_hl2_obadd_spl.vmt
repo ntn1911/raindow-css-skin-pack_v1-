@@ -1,0 +1,17 @@
+spritecard
+{
+$basetexture 	"particle/muzzle_hl2"
+
+$additive 		1
+$vertexcolor 	1
+$vertexalpha 	1
+
+$overbrightfactor 	3
+
+$splinetype 	2
+
+"GPU<2?$STARTFADESIZE" ".4"
+"GPU<2?$ENDFADESIZE" ".6"
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$DEPTHBLEND" 0
+}

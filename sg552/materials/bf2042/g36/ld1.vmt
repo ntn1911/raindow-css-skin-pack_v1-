@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+    "$basetexture" "bf2042\g36\L_lg"
+	 $nodecal 1
+	    "$selfillum" "1"
+    Proxies
+    {
+            TextureScroll
+        {
+            texturescrollvar $baseTextureTransform
+            texturescrollrate 0.25
+            texturescrollangle 180
+        }
+    }
+}
+

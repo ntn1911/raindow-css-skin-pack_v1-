@@ -1,0 +1,14 @@
+SpriteCard
+{
+
+$basetexture "particle/ins_thick_smoke"
+
+$overbrightfactor 0.25
+$DEPTHBLEND 1
+
+$vertexalpha 1
+$vertexcolor 1
+
+$maxsize 0.75
+}
+

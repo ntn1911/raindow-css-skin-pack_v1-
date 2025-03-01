@@ -1,0 +1,20 @@
+"SpriteCard"
+{
+        	$basetexture  	"particle/lava_blasts/lava_blasts"
+
+	$depthblend	1
+       	$blendframes 	1
+	$vertexalpha	1
+	$vertexcolor	1
+
+	$overbrightfactor	0.35
+	$startfadesize 	0.55
+	$endfadesize 	0.69
+
+
+"GPU<2?$BLENDFRAMES" 0
+"GPU<2?$DEPTHBLEND" 0
+
+"GPU<2?$startfadeout" 0.35
+"GPU<2?$endfadeout" 0.45
+}

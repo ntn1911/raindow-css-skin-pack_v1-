@@ -1,0 +1,44 @@
+"vertexlitgeneric" 
+{
+    "$basetexture" "models\Weapons\Nailong\melee\you"
+
+	"$selfillum" "1"
+	"$additive"	"1"
+	"$nocull" "1"
+
+	"$detail" "models\Weapons\Nailong\melee\lg_huan"
+	
+	"$detailscale" "1"      
+	"$detailblendfactor" "1" 
+	"$detailblendmode" "8"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.1"
+			"texturescrollangle" "180"
+		}
+		"Sine"
+		{
+			"resultVar" "$alpha"
+			"sineperiod" "10"							//一个材质持续时间的1倍
+			"timeoffset" "2.5"
+			"sinemin" "0"								//小于0，约等于0
+			"sinemax" "50"							//远远大于2
+		}
+		AnimatedTexture
+		{
+			animatedTextureVar $detail
+			animatedTextureFrameNumVar $detailframe			//帧数×2，将末尾帧移至第一帧
+			animatedTextureFrameRate 0.1				//1÷sineperiod
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" "0.4"
+			"texturescrollangle" "0"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+SpriteCard
+{
+$basetexture 		"particle/fire_burning_character/fire_burning_character_HL2"
+$additive 			1
+$splinetype 		2
+$BLENDFRAMES 		1
+$OVERBRIGHTFACTOR 	15
+$depthblend		0
+
+
+$STARTFADESIZE 	.48
+$ENDFADESIZE 		.64
+
+"GPU<2?$STARTFADESIZE" ".35"
+"GPU<2?$ENDFADESIZE" ".45"
+"GPU<2?$BLENDFRAMES" 0
+}

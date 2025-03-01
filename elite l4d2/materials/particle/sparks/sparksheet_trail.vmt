@@ -1,0 +1,20 @@
+SpriteCard
+{
+	$basetexture "particle/sparks/sparksheet"
+	
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	
+
+	
+	"$additive" 1	
+	
+	$overbrightfactor 2
+
+	$startfadesize 0.5
+	$endfadesize 0.75
+	
+	$depthblend 0
+
+	$splinetype 2
+}

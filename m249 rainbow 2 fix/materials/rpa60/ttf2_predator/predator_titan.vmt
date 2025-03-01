@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+"$basetexture" 			"rpa60\ttf2_predator\predator_titan_col"
+
+
+  
+"$envmap"	"env_cubemap"
+"$envmaptint"	"[ .03 .03 .03 ]"
+"$envmapfresnel" "1"
+"$envmapFresnelMinMaxExp" "[10 40 .4]"
+
+"$phong"	"1"
+"$phongexponent"	"30"
+"$phongboost"	"5"
+"$phongfresnelranges"	"[0.25 0.5 1]"
+$lightwarptexture  "rpa60\ttf2_predator\lightwarp"
+$selfillum 1
+
+
+}

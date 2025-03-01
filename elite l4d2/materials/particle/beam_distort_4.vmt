@@ -1,0 +1,14 @@
+"Refract"
+{
+	"$bumpmap" "particle/Beam_Distort_4"
+ 	"$normalmap" "particle/Beam_Distort_4"
+ 	"$Refractamount" "0.05"
+ 	$vertexalpha 1
+ 	$vertexcolor 1
+ 	$translucent 1
+ 	$forceRefract 1
+ 	$bluramount 2
+ 	//$nofog 1
+ 	$vertexcolormodulate 1
+ 	$NoCull 1
+}

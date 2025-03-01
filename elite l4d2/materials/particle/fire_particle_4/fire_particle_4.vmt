@@ -1,0 +1,10 @@
+SpriteCard
+{
+$basetexture "particle/fire_particle_4/fire_particle_4.vtf"
+$additive 1
+$transparent 1
+$overbrightfactor 4
+
+	$startfadesize 0.4
+	$endfadesize 0.5
+}

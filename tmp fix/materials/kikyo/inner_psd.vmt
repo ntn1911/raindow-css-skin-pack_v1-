@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Kikyo/Inner_PSD"
+    "$lightwarptexture" "Kikyo/shader"
+    "$bumpmap" "Kikyo/Normal"
+	"$envmapfresnel"	"0.5"
+	"$envmap"			"env_cubemap"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+	"$normalmapalphaenvmapmask"	"1"
+	
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+
+    "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "5.0"
+	"$halflambert" "1"
+}

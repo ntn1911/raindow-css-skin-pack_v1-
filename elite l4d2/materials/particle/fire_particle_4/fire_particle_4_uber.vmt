@@ -1,0 +1,23 @@
+"SpriteCard"
+{
+	$basetexture "particle/fire_particle_4/fire_particle_42"
+
+	$overbrightfactor 	6
+	$addself		3
+	$addoverblend	1
+	$additive	1
+	$vertexalpha 1
+	$vertexcolor 1
+
+	$startfadesize .6
+	$endfadesize .8
+	
+	$blendframes 1
+
+	$depthblend 1
+
+	"GPU<2?$STARTFADESIZE" ".35"
+	"GPU<2?$ENDFADESIZE" ".5"
+	"GPU<2?$BLENDFRAMES" 0
+	"GPU<2?$DEPTHBLEND" 0
+}

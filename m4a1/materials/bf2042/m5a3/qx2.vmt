@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+"$basetexture" "bf2042\m5a3\qx2"
+
+     $selfillum 1
+     $selfillummask "bf2042\m5a3\glowmask"
+ "Proxies"
+{
+	  "AnimatedTexture"
+	  {
+      "animatedTextureVar" "$baseTexture"
+      "animatedTextureFrameNumVar" "$frame"
+      "animatedTextureFrameRate" 60.00
+	  }
+}
+"$additive"					"1"
+
+
+}

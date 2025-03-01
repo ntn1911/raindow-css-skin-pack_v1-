@@ -1,0 +1,14 @@
+SpriteCard
+{
+
+$basetexture "effects/splash4"
+$vertexcolor 1
+$vertexalpha 1
+$translucent 1
+
+$startfadesize 0.5
+$endfadesize 0.64
+
+$depthblend 0
+$blendframes 0
+}

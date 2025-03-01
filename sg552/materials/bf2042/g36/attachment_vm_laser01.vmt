@@ -1,0 +1,38 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "bf2042\g36\attachment_vm_laser01_rgb"
+    "$bumpmap" "bf2042\g36\attachment_vm_laser01_n"
+	"$selfillum" "1"
+	"$blendtintbybasealpha" "1"
+	"$phong" "1"
+	"$phongboost" "30"
+	"$phongexponent" "15"
+	"$phongwarptexture" "bf2042\g36\phongwarp_steel"
+	"$phongalbedotint" "1"
+	"$PhongFresnelRanges" "[ .1 .5 1 ]"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+	$phong	"1"
+	$phongboost	"1"
+	$phongfresnelranges	 "[ 2 4 30 ]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.025 .025 .025]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"25"
+
+	$nocull                  "1"
+
+
+	"$phongexponenttexture" "bf2042\g36\exponent"
+
+}

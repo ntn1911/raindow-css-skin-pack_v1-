@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Kikyo/mb"
+	"$selfillum" "1"
+
+	"Proxies"
+	{
+		"PlayerTeam"
+		{
+			"team" "5"
+			"resultVar" "$proxTeam"
+		}
+
+		"Subtract"
+		{
+			"srcVar1" "$one"
+			"srcVar2" "$proxRange"
+			"resultVar" "$alpha"
+		}
+
+		"Multiply"
+		{
+			"srcVar1" "$alpha"
+			"srcVar2" "$proxTeam"
+			"resultVar" "$alpha"
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "6"
+		}
+
+		"Sine"
+		{
+			"resultVar" "$alpha"
+			"sineperiod" "4"
+			"sinemin" "0.3"
+			"sinemax" "1"
+			"timeoffset" "2220"
+		}
+	}
+
+	"$phong" "1"
+}

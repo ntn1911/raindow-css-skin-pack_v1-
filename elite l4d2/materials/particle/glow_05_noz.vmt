@@ -1,0 +1,19 @@
+spritecard
+{
+$basetexture "particle\Particle_Glow_05"
+
+$vertexcolor 1
+$vertexalpha 1
+
+$translucent 1
+$additive 1
+$overbrightfactor 1
+
+$depthblend 0
+$blendframe 0
+
+$startfadesize 0.45
+$endfadesize 0.6
+
+$ignorez 1
+}

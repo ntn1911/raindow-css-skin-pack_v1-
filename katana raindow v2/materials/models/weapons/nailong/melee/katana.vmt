@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\Weapons\Nailong\melee\Katana"
+    "$bumpmap" "models\Weapons\Nailong\melee\Katana_n"
+    "$phongexponenttexture" "models\Weapons\Nailong\melee\pist_deagle_exponent"
+    "$halflamert" "1"
+"$nodecal" "1"
+
+//phong反射
+     "$phong" "1"
+     "$phongexponent" "50"
+     "$phongboost" "1.5"
+     "$phongfresnelranges" "[0.05 0.05 1]"
+     "$nocompress" 1
+
+
+//env环境
+     "$basemapalphaphongmask" 1
+     "$envmap" env_cubemap
+     "$envmapfresnel" 1
+     "$envmapFresnelMinMaxExp" "[10 40 .4]"
+     "$envmaptint" 		"[.2 .2 .2]"
+     "$phongalbedotint" 1
+     "$phongdisablehalflambert" 1
+	
+	"$selfillum"   "1"
+"$selfillummask"  "models\Weapons\Nailong\melee\95%"
+$lightwarptexture "models\Weapons\Nailong\melee\p"
+}
+

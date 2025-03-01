@@ -1,0 +1,11 @@
+"SpriteCard"
+{
+	$BASETEXTURE "particle/tinyFireSprites/tinyFireSprites"
+	$maxsize 0.55
+	$startfadesize 0.35
+	$endfadesize 0.5
+	
+	$OVERBRIGHTFACTOR 6
+	$ADDitive 1
+	$DEPTHBLEND 0
+}

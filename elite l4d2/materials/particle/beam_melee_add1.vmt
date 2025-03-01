@@ -1,0 +1,15 @@
+SpriteCard
+
+{
+$basetexture "particle/beam_melee_add1"
+
+$nocull 1
+$splinetype 1
+$additive 1
+$vertexcolor 1
+$vertexalpha 1
+$orientation 3
+
+
+$ignorez 1
+}

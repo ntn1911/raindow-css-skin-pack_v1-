@@ -1,0 +1,98 @@
+"Weapon_M249.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	")weapons/m249/machinegun_fire_1.wav"
+		"wave"	")weapons/m249/machinegun_fire_1.wav"
+		"wave"	")weapons/m249/machinegun_fire_1.wav"
+	}
+	
+}
+
+"m60.Clipout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\m249\rifle_clip_out_1.wav"
+}
+"m60.Clipin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\m249\rifle_clip_out_1.wav"
+}
+"m60.SlideBack"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\m249\rifle_slideback.wav"
+}
+"m60.deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\m249\rifle_deploy_1.wav"
+}
+"m60.SlideForward"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\m249\rifle_slideforward.wav"
+}
+"Weapon_Negev.ClipIn"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/mg42fen/ClipIn.mp3"
+}
+"Weapon_Negev.ClipLocked"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/mg42fen/ClipLocked.mp3"
+}
+"Weapon_Negev.Flash"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/mg42fen/Flash.mp3"
+}
+"Weapon_Negev.pan"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/mg42fen/pan.mp3"
+}
+

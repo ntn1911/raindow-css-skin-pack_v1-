@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    "$basetexture" "bf2042\m5a3\reticle_ui_light"
+    "$selfillum" "1"
+}

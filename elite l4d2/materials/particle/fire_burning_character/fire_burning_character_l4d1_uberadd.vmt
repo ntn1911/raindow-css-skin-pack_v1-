@@ -1,0 +1,14 @@
+"SpriteCard"
+{
+	$basetexture "particle/fire_burning_character/fire_burning_character_l4d1"
+
+	$BLENDFRAMES 1
+	$OVERBRIGHTFACTOR 10
+
+	$STARTFADESIZE .4
+	$ENDFADESIZE .5
+	$DEPTHBLEND 0
+	$additive 1
+	$vertexalpha 1
+	$vertexcolor 1
+}

@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Kikyo/Light"
+    "$lightwarptexture" "Kikyo/shader"
+	"$bumpmap" "Kikyo/Normal"
+    "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	"0.02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$PhongExponent" "1.0"
+	"$halflambert" "1"
+	"$selfillum" "1"
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar $basetexture
+			animatedTextureFrameNumVar $frame
+			animatedTextureFrameRate 7
+		}
+	}
+}

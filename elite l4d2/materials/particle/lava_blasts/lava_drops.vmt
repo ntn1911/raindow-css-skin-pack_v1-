@@ -1,0 +1,17 @@
+"SpriteCard"
+{
+        "$basetexture"  "particle/lava_blasts/lava_drops"
+        $addself 2
+
+        $distancealpha 1
+
+        $softedges 0
+
+        
+        $outline 0
+
+        $perparticleoutline 0
+
+
+        $overbrightfactor 5
+}

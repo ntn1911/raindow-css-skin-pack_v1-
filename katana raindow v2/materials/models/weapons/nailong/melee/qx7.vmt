@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+   "$basetexture" "models\Weapons\Nailong\melee\qx4"
+   "$nocull" "1"
+   "$additive" "1"
+   "$selfillum"  "1"
+   "$selfillumtint" "0.9 0.9 0.9"
+
+// 动态-单帧
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar $basetexture
+			animatedTextureFrameNumVar $frame
+			animatedTextureFrameRate 10
+		}
+	}
+// 自发光
+	$selfillum 					"1"											//优先启用基础贴图的alpha
+    $selfillummask			"models\Weapons\Nailong\melee\black"	//蒙版夜光路径需开启自发光和高shader
+}

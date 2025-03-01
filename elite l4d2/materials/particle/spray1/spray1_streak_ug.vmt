@@ -1,0 +1,7 @@
+unlitgeneric
+{
+$basetexture "particle/spray1/spray1"
+$vertexalpha 1
+$vertexcolor 1
+$translucent 1
+}

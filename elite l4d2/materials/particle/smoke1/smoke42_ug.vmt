@@ -1,0 +1,15 @@
+unlitgeneric
+{
+
+$basetexture "particle/smoke1/smoke42"
+$translucent 1
+$DEPTHBLEND 0
+
+$vertexalpha 1
+$vertexcolor 1
+
+$startfadesize 0.6
+$endfadesize 0.7
+$maxsize 0.75
+}
+

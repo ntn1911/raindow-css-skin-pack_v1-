@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "bf2042\g36\reflex_lens"
+    "$translucent" "1" 
+
+	/////////////////
+    "$color2" "[0.45 0.45 0.45]"     
+    "$blendtintbybasealpha" "1" 	//do not touch this
+    /////////////////   
+	
+    $detail "bf2042\g36\reflex_lens"
+    $detailscale 0.9        //scales the detail texture to same size as diffuse.
+    $detailblendfactor 1  //lower values make the texture less visible. 0.0 - 1.0
+    $detailblendmode 2
+	
+	
+
+}

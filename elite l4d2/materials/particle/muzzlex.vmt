@@ -1,0 +1,7 @@
+unlitgeneric
+{
+$basetexture "particle/muzzlex"
+$additive 1
+$vertexalpha 1
+$vertexcolor 1
+}

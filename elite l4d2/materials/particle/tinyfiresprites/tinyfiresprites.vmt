@@ -1,0 +1,13 @@
+"SpriteCard"
+{
+	$BASETEXTURE "particle/tinyFireSprites/tinyFireSprites"
+	
+	$POWERFUNCTION "[2.5 5 8]"
+	
+	$ADDSELF 1.0
+	$DEPTHBLEND 0
+
+	$maxsize 0.45
+	$startfadesize 0.25
+	$endfadesize 0.35
+}

@@ -1,0 +1,9 @@
+decalmodulate
+{
+$basetexture "particle/blood_splat00"
+$decal 1
+$decalscale 0.1
+$translucent 1
+$vertexalpha 1
+$vertexcolor 1
+}

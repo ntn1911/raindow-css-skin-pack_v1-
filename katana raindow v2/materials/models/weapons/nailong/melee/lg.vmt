@@ -1,0 +1,18 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models\Weapons\Nailong\melee\lg"
+	"$translucent" "1"
+	"$additive" "1"
+    "Proxies"
+    {
+    "TextureScroll"
+        {
+        "texturescrollvar" "$basetexturetransform"
+        "texturescrollrate" 0.1
+        "texturescrollangle" 90
+        }
+    }
+	"$selfillum" "1"
+}

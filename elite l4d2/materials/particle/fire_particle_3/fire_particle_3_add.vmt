@@ -1,0 +1,17 @@
+"SpriteCard"
+{
+	$BASETEXTURE "particle/Fire_Particle_3/Fire_Particle_3"
+	$additive 1
+	$vertexalpha 1
+	$vertexcolor 1
+	$overbrightfactor 6
+	$BLENDframes 1
+
+	$startfadesize 0.6
+	$endfadesize 0.8
+	$CROPFACTOR "[0.525 1]"
+	
+"GPU<2?$STARTFADESIZE" ".3"
+"GPU<2?$ENDFADESIZE" ".45"
+"GPU<2?$BLENDFRAMES" "0"
+}

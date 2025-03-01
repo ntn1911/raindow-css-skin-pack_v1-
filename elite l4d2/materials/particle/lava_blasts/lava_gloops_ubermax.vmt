@@ -1,0 +1,10 @@
+"SpriteCard"
+{
+        	"$basetexture"  "particle/lava_blasts/lava_gloops"
+
+        	$addself 10
+        	$blendframes 1
+
+	$startfadesize 	0.55
+	$endfadesize 	0.69
+}

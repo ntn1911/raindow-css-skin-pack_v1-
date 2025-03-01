@@ -1,0 +1,35 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "bf2042\g36\hair_acc"
+    "$selfillum" "1"
+
+
+
+	//"$color2" "[0.6 0.6 0.6]"
+	"$nocull" "1"
+   	"$halflambert" "1"
+	"$nodecal" "1"
+
+	"$phong" "1"
+	"$phongfresnelranges" "[1 1 1]"
+	"$phongexponent" "5"
+	"$phongboost" ".1"
+	"$phongalbedotint" 	"1"
+	"$phongalbedoboost" "50"
+
+	
+	"$envmap" 					 "env_cubemap"
+	"$envmapFresnelMinMaxExp" "[.05 .1 .5]"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.08 .04 .08]"		
+	"$phongtint"  "[1 .33 1]"		
+	//"$PhongAlbedoTint" "1"		
+	
+	"$ambientocclusion" "1"
+	
+	"$rimlight"              "1"
+	"$rimlightexponent"      "2"
+	"$rimlightboost"         ".2"
+	
+
+}

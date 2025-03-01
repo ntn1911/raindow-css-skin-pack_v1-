@@ -1,0 +1,9 @@
+"spritecard"
+{
+	"$basetexture" "particle\particle_flares\particle_flare_001"
+	$mod2x 1
+	$STARTFADESIZE 0.6
+	$ENDFADESIZE 0.75
+	$overbrightfactor 5
+	$depthblend 0
+}
